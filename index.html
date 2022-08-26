@@ -55,10 +55,10 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="10000">
                     <img src="images/cover/cover-1.png" class="d-block w-100 cover-photo rounded" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>Get Started Digital Learning</h1>
-                        <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking a it's layout.</p>
-                        <button class="btn btn-primary rounded p-2">Get Started</button>
+                    <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+                        <h1>Get Started Digital <br> Learning</h1>
+                        <p>it is a long established fact that a reader will be distracted by the readable br content of a page when looking a it's layout.</p>
+                        <button class="btn w-25 mx-auto btn-primary rounded">Get Started</button>
                       </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
@@ -141,7 +141,7 @@
                           </div>
                       </div>
                       <!-- Course 4 -->
-                      <div class="col-md-12 col-lg-6 col-sm-12 col-12">
+                      <div class="col-md-12 col-lg-6 col-sm-12 col-12 d-none d-lg-block">
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                               <div class="col-md-4">
@@ -158,7 +158,7 @@
                           </div>
                       </div>
                       <!-- Course 5 -->
-                      <div class="col-md-12 col-lg-6 col-sm-12 col-12">
+                      <div class="col-md-12 col-lg-6 col-sm-12 col-12 d-none d-lg-block">
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                               <div class="col-md-4">
@@ -175,7 +175,7 @@
                           </div>
                       </div>
                       <!-- Course 6 -->
-                      <div class="col-lg-6 col-sm-12 col-12">
+                      <div class="col-lg-6 col-sm-12 col-12 d-none d-lg-block">
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                               <div class="col-md-4">
@@ -193,17 +193,21 @@
                       </div>
                 </div>
             </div>
-            <div class="text-center mt-4"> 
+            <div class="text-center mt-4 d-none d-lg-block"> 
                 <button class="btn btn-primary">See More Courses</button>
             </div>
+            <div class="text-center d-lg-none">
+                <button class="btn btn-primary">View All</button>
+            </div>
         </section>
+        <!-- Bonus Section Start  -->
         <section class="container">
-            <div class="d-flex justify-content-around align-items-center bg-primary mt-5 rounded p-5">
-                <div class="text-white">
+            <div class="row gx-5 bg-primary mt-5 rounded p-5 align-items-center gx-5">
+                <div class="col-12 col-md-12 col-sm-12 col-lg-6 text-white">
                     <h4>Ready to join?</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, alias.</p>
+                    <p>it is a long established fact that a reader will be distracted by the readable content pf a page when looking at its layout.</p>
                 </div>
-                <div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                     <!-- Button trigger modal -->
                     <button type="button" class="btn text-primary bg-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Register Now
@@ -230,6 +234,7 @@
                 </div>                       
             </div>
         </section>
+        <!-- Bonus Section End  -->
         <!-- Question part Start-->
         <section class="container">
            <div class="w-75 mx-auto">
@@ -312,12 +317,12 @@
         <!-- Logo part end  -->
     </main>
     <footer class="bg-dark mt-5">
-       <div class="p-5 w-25 mx-auto">
+       <div class="p-5 mx-auto">
         <div class="text-center text-white">
             <h2 id="edu">Education Hub</h2>
-            <p><small>Office 41, Zawaya Building, Ghala Muscat,<br>Sultanate of Oman<br>Privacy Policy Tersm of use</small></p>
+            <p><small>Office 41, Zawaya Building, Ghala Muscat,<br>Sultanate of Oman<br>Privacy Policy | Tersm of use</small></p>
         </div>
-        <div class="d-flex justify-content-evenly text-white">
+        <div class="text-center text-white">
             <i class="fa-brands fa-facebook-f"></i>
             <i class="fa-brands fa-square-twitter"></i>
             <i class="fa-brands fa-linkedin"></i>
